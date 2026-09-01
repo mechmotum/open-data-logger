@@ -1,0 +1,21 @@
+// DATALOGGER CONFIG FILE
+// If you add support for any sensors, please add them to this list!
+// Only lines without '//' or '#' are read. Please only edit entries after the '=' sign.
+
+// SUPPORTED SENSORS (DIGITAL):
+// [sensor model] - [tagline]
+// 	IMUs
+# ICM20948 - 	icm
+# BNO055 -	bno
+#
+mainIMU=ICM20948  
+singleFile=false
+
+// ANALOG PORTS:
+// 
+
+
+// Choose whether a new file is created at every measurement, or if a single file is appended.
+
+
+
